@@ -1,0 +1,17 @@
+font-family:Roboto
+
+font-style:
+
+Regular
+Medium
+(mixed)
+Medium Italic
+italic
+
+начертание шрифта:
+
+Weight  400(regular)=normal, 500, 500(italic), 700
+
+
+Style  normal
+
