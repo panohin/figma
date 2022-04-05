@@ -69,7 +69,7 @@ template{display:none}[hidden]{display:none}
 
 
 html{
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 *, *::before, *::after{
   box-sizing: inherit;
@@ -84,6 +84,7 @@ body{
   color: #000;
   margin: 0 auto;
   padding: 0 55;
+  max-width: 1219px;
 
 }
 
@@ -95,8 +96,7 @@ body{
   display: inline;
   position: fixed;
   top: 0;
-  /*left: 0;*/
-  width: 100%;
+  width: 1219px;
   height: 84px;
   align-items: center;
 }
@@ -166,11 +166,28 @@ body{
 
 .pipernet{
   background: url(../img/image.png) ;
-
+  width: 1219px;
+  height: 403px;
 } 
 
 .main_text{
   text-align: center;
-  color: #666666;
+  color: #FFFFFF;
   font-size: 72px;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.problem{
+  text-align: center;
+  font-weight: 700, Bold;
+  padding: 139 55 92 55;
+  font-size: 32px;
+  content: ;
+}
+
+h1{
+  text-align: center;
+  color: rgb(0, 119, 101);
+  font-size: 64px;
 }
