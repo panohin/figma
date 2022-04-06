@@ -165,7 +165,7 @@ body{
 
 
 .pipernet{
-  background: url(../img/image.png) ;
+  background: url(../img/jumbotron.png) ;
   width: 1219px;
   height: 403px;
 } 
@@ -184,6 +184,8 @@ body{
   padding: 139 55 92 55;
   font-size: 32px;
   content: ;
+  width: 1219px;
+  height: 719px;
 }
 
 h1{
@@ -191,3 +193,29 @@ h1{
   color: rgb(0, 119, 101);
   font-size: 64px;
 }
+
+.hero{
+  background: url(../img/hero.png);
+  width: 1219px;
+  height: 483px;
+}
+.text_hero{
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 48px;
+  padding-top: 128px;
+  padding-right: 165px;
+  padding-bottom: 127px;
+  padding-left: 164px;
+  }
+.ppc{
+  width: 1219px;
+  height: 604px;
+  font-size: 32px;
+}
+figure {
+  height: 115px;
+  width: 115px;
+  float: left;
+  margin:auto ;
+  text-align: center;}
