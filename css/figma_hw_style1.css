@@ -179,11 +179,11 @@ body{
 }
 
 .problem{
-  text-align: center;
+  text-align: justify;
   font-weight: 700, Bold;
   padding: 139 55 92 55;
   font-size: 32px;
-  content: ;
+  margin: 0 55px;
   width: 1219px;
   height: 719px;
 }
@@ -192,6 +192,10 @@ h1{
   text-align: center;
   color: rgb(0, 119, 101);
   font-size: 64px;
+  padding-top: 47px;
+  padding-right: 55px;
+  padding-left: 55px;
+
 }
 
 .hero{
@@ -204,9 +208,9 @@ h1{
   color: #FFFFFF;
   font-size: 48px;
   padding-top: 128px;
-  padding-right: 165px;
+  /*padding-right: 165px;
   padding-bottom: 127px;
-  padding-left: 164px;
+  padding-left: 164px;*/
   }
 .ppc{
   width: 1219px;
@@ -217,5 +221,22 @@ figure {
   height: 115px;
   width: 115px;
   float: left;
-  margin:auto ;
+  margin: 0 37 15 37px;
   text-align: center;}
+
+  .p1{
+    width: 1110px;
+    height: 223px;
+    text-align: justify;
+}
+  .team{
+    width: 1219px;
+    height: 845px;
+    background: url(../img/bg.png);
+  }
+  .footer{
+     width: 1219px;
+    height: 176px;
+background: url(../img/Rectangle.png);
+
+  }
