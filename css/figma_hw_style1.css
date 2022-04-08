@@ -235,8 +235,11 @@ figure {
     background: url(../img/bg.png);
   }
   .footer{
-     width: 1219px;
+    width: 1219px;
     height: 176px;
-background: url(../img/Rectangle.png);
-
-  }
+    background: url(../img/Rectangle.png);
+    font-size: 18px;
+    color:  #FFFFFF;
+    text-align: center;
+    padding-top: 60px;
+}
