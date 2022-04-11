@@ -122,9 +122,9 @@ body{
 
 
 .header_logo{
-  padding-top: 25px;
-  padding-bottom: 5px;
-  margin: auto;
+  /*padding-top: 15px;
+  padding-bottom: 5px;*/
+  margin: 0 auto;
 }
 
 
@@ -137,7 +137,7 @@ body{
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  padding-top: 32px;
+  padding-top: 12px;
   padding-bottom: 13px;
 }
 
@@ -184,7 +184,7 @@ body{
   font-weight: 700, Bold;
   padding: 139 55 92 55;
   font-size: 32px;
-  margin: 0 55px;
+  /*margin: 0 55px;*/
   width: 1219px;
   height: 719px;
 }
@@ -193,10 +193,13 @@ h1{
   text-align: center;
   color: rgb(0, 119, 101);
   font-size: 64px;
-  /*padding-top: 47px;
+  
   padding-right: 55px;
   padding-left: 55px;
-*/
+
+}
+.problem_text{
+  padding: 0 55px;
 }
 
 .hero{
@@ -226,10 +229,16 @@ figure {
   margin: 0 37px 15px 37px;
   text-align: center;}
 
+  .img1{
+    padding-top: 5px;
+    padding-left: 5px;
+  }
+
 .p1{
   width: 1110px;
   height: 223px;
   text-align: justify;
+  padding-left: 55px;
 }
 
 .team{
@@ -269,8 +278,12 @@ figure {
   width: 1219px;
   height: 176px;
   background: url(../img/Rectangle.png);
+  font-family: 'Roboto';
   font-size: 18px;
   color:  #FFFFFF;
   text-align: center;
-  padding-top: 60px;
+ 
+}
+.footer_text{
+   padding-top: 60px;
 }
